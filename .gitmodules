@@ -1,0 +1,9 @@
+[submodule "dotfiles/.vim.symlink/bundle/vim-surround"]
+	path = dotfiles/.vim.symlink/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "dotfiles/.vim.symlink/bundle/vim-colors-solarized"]
+	path = dotfiles/.vim.symlink/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "dotfiles/.vim.symlink/bundle/vim-commentary"]
+	path = dotfiles/.vim.symlink/bundle/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git

@@ -1,0 +1,8 @@
+M2=/opt/maven/bin
+if [ -d /opt/maven/bin ]
+then
+	PATH=$M2:$PATH
+	export PATH
+	export M2
+fi
+

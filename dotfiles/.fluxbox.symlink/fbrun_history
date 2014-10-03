@@ -1,0 +1,5 @@
+abaiinkscape
+alias) >> .log/log
+echo $(alias) >> .log/log
+/log
+inkscape

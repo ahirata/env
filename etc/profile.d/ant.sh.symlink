@@ -1,0 +1,7 @@
+ANT_HOME=/opt/ant
+if [ -d $ANT_HOME/bin ] 
+then
+	PATH=$ANT_HOME/bin:$PATH
+	export PATH
+fi
+

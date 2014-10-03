@@ -1,0 +1,8 @@
+JAVA_HOME=/opt/jdk
+if [ -d /opt/jdk/bin ]
+then
+	PATH=$JAVA_HOME/bin:$PATH
+	export JAVA_HOME
+  export PATH
+fi
+

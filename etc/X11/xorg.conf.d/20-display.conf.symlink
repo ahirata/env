@@ -1,0 +1,51 @@
+Section "ServerLayout"
+  Identifier "Server Layout"
+  Screen "Primary"
+  Screen "Secondary" RightOf "Primary"
+  Option "Xinerama" "1"
+EndSection
+
+Section "Screen"
+  Identifier "Primary"
+  Device "Intel"
+  Monitor "LVDS1"
+EndSection
+
+Section "Device"
+  Identifier "Intel"
+  Driver "intel"
+  Option "TearFree" "true"
+  Option "AccelMethod" "sna"
+  BusID "PCI:00:02:0"
+EndSection
+
+Section "Monitor"
+  Identifier "LVDS1"
+EndSection
+
+Section "Screen"
+  Identifier "Secondary"
+  Device "Radeon"
+  Monitor "HDMI-1-0"
+EndSection
+
+Section "Device"
+  Identifier "Radeon"
+  Driver "radeon"
+  BusID "PCI:01:00:0"
+EndSection
+
+Section "Monitor"
+  Identifier "HDMI-1-0"
+EndSection
+
+Section "Monitor"
+  Identifier "LVDS-1"
+  Option "Ignore" "true"
+EndSection
+
+Section "Monitor"
+  Identifier "DisplayPort-0"
+  Option "Ignore" "true"
+EndSection
+

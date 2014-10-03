@@ -1,0 +1,20 @@
+Styles intended to fit nicely with the Gnome Adwaita gtk3 theme.
+
+For those who don’t use compositing with shadows, a good work around for the missing menu borders and better gtk2 theme integration:
+
+nano ~/.config/gtk-3.0/gtk.css
+--------------------------------------------------
+.menu {
+    border-width: 1px;
+    border-color: @borders;
+    border-style: solid;
+}
+
+.menubar .menuitem *:prelight,
+.menubar .menuitem:prelight {
+    background-color: @selected_bg_color;
+    color: @selected_fg_color;
+}
+--------------------------------------------------
+
+Have fun!

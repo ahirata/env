@@ -1,0 +1,18 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+PS1='[\u@\h \W]\$ '
+
+export EDITOR="vim"
+
+alias ls="ls --color=auto"
+
+# fix window resizing
+shopt -s checkwinsize
+
+. $HOME/env/load.sh
+

@@ -1,0 +1,7 @@
+GRUB_INSTALL=/dev/sdb
+MOUNT_POINT=/mnt/system
+HOSTNAME=maclarens
+MAIN_USER=atarih
+PACKAGES="base base-devel grub os-prober libva-intel-driver xorg lightdm lightdm-gtk3-greeter gnome-icon-theme gnome-themes-standard fluxbox networkmanager network-manager-applet xterm firefox wget dhcpcd vim git rsync alsa-utils flashplugin gobject-introspection pygtk notify-osd libnotify zip unzip ttf-dejavu tmux skype pulseaudio alsa-utils pulseaudio-alsa lib32-libpulse lib32-alsa-plugins"
+AUR_PACKAGES="plymouth-legacy ttf-ms-fonts ttf-tahoma tidybattery faenza-icon-theme xcursor-aero plymouth-theme-arch-logo"
+

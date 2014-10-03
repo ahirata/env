@@ -1,0 +1,10 @@
+Section "InputClass"
+  Identifier "touchpad palmcontrol"
+  Driver "synaptics"
+  MatchIsTouchpad "on"
+  Option "PalmDetect" "1"
+  Option "PalmMinWidth" "5"
+  Option "PalmMinZ" "500"
+  MatchDevicePath "/dev/input/event*"
+EndSection
+
