@@ -22,6 +22,8 @@ wget https://dl.google.com/android/adt/adt-bundle-linux-x86_64-20140702.zip -P $
 unzip $DL_DIR/adt-bundle-linux-x86_64-20140702.zip -d $APP_DIR
 ln -s $APP_DIR/adt-bundle-linux-x86_64-20140702 $APP_DIR/android
 
+sudo pacman -S android-udev
+
 cat << EOF
 Download and configure java in $OUT_DIR
 EOF
