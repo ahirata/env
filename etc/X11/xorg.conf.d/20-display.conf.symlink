@@ -15,7 +15,7 @@ Section "Device"
   Identifier "Intel"
   Driver "intel"
   Option "TearFree" "true"
-  Option "AccelMethod" "sna"
+  Option "AccelMethod" "uxa"
   BusID "PCI:00:02:0"
 EndSection
 
